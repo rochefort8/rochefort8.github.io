@@ -2,101 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2023-10-15T05:33:12+09:00</lastmod>
+    <loc>https://rochefort8.github.io/</loc>
+    <lastmod>2023-10-15T07:34:50+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/aaa/</loc>
-    <lastmod>2023-10-15T05:33:12+09:00</lastmod>
+    <loc>https://rochefort8.github.io/post/201_principles_of_swdev/</loc>
+    <lastmod>2023-10-15T07:34:50+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/categories/</loc>
-    <lastmod>2023-10-15T05:33:12+09:00</lastmod>
+    <loc>https://rochefort8.github.io/post/</loc>
+    <lastmod>2023-10-15T07:34:50+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2023-10-15T05:33:12+09:00</lastmod>
+    <loc>https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA-201%E3%81%AE%E9%89%84%E5%89%87%E3%81%AE%E5%90%84%E9%89%84%E5%89%87%E3%82%92%EF%BC%94%E8%A1%8C%E3%81%A7%E3%81%BE%E3%81%A8%E3%82%81%E3%81%A6%E3%81%BF%E3%82%8B/</loc>
+    <lastmod>2023-10-15T07:28:21+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2023-10-15T05:33:12+09:00</lastmod>
+    <loc>https://rochefort8.github.io/categories/</loc>
+    <lastmod>2023-10-15T07:28:21+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/second-article/</loc>
-    <lastmod>2023-10-15T05:33:12+09:00</lastmod>
+    <loc>https://rochefort8.github.io/categories/swdev/</loc>
+    <lastmod>2023-10-15T07:28:21+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/syntax/</loc>
-    <lastmod>2023-10-15T05:33:12+09:00</lastmod>
+    <loc>https://rochefort8.github.io/tags/</loc>
+    <lastmod>2023-10-15T07:28:21+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2023-10-15T05:33:12+09:00</lastmod>
+    <loc>https://rochefort8.github.io/tags/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA-201%E3%81%AE%E9%89%84%E5%89%87/</loc>
+    <lastmod>2023-10-15T07:28:21+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/initial-article/</loc>
-    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+    <loc>https://rochefort8.github.io/categories/others/</loc>
+    <lastmod>2023-10-15T07:12:51+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/themes/</loc>
-    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+    <loc>https://rochefort8.github.io/p/%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F/</loc>
+    <lastmod>2023-10-15T07:12:51+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>https://rochefort8.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/page/</loc>
+    <loc>https://rochefort8.github.io/page/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/markdown-syntax-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/%D9%86%D8%B5/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/test/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://rochefort8.github.io/about/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/links/</loc>
+    <loc>https://rochefort8.github.io/links/</loc>
   </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>https://rochefort8.github.io/search/</loc>
   </url>
 </urlset>

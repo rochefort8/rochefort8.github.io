@@ -1,9 +1,9 @@
-baseurl: https://example.com
+baseurl: https://rochefort8.github.io
 languageCode: ja
 theme: hugo-theme-stack
 paginate: 5
-title: Example Sitee
-copyright: Example Person
+title: Ogi-kun channel
+copyright: Yuji Ogihara
 publishDir: docs
 
 languages:
