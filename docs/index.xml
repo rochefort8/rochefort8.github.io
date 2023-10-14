@@ -29,19 +29,35 @@
 </description>
         </item>
         <item>
-        <title>ソフトウェア開発201の鉄則 原理109</title>
-        <link>https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%86109/</link>
-        <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%86109/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>ソフトウェア開発201の鉄則 原理100</title>
         <link>https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%86100/</link>
-        <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
         
         <guid>https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%86100/</guid>
+        <description>&lt;h2 id=&#34;要旨&#34;&gt;要旨&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;構造化プログラミングは、もともとは、プログラムの正しさをカンタンに確かめることができるように提唱されたものだ&lt;/li&gt;
+&lt;li&gt;今では、そのときに定義された条件分岐やサブルーチンなどを使うこと自体が構造化プログラミングと呼ぶようになった&lt;/li&gt;
+&lt;li&gt;プログラムをわかりやすくする、という点で、構造化プログラミングは必要だ&lt;/li&gt;
+&lt;li&gt;しかし、それは「高品質なプログラミング」の一部の要素であって、十分条件ではない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;解説&#34;&gt;解説&lt;/h2&gt;
+&lt;p&gt;1969 年に、ソフトウェア工学ではしばしば名前の出てくるDikstra さんが提唱したもの。&lt;/p&gt;
+&lt;p&gt;元の目的は、プログラムの正確さをより簡単に測るための見やすさ向上、なんですね（知らなかった）。&lt;/p&gt;
+&lt;p&gt;そして今では、プログラミングの基本要素となっている。&lt;a class=&#34;link&#34; href=&#34;https://itmanabi.com/structured-objectoriented-prog/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ここに詳しい&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;この原理で言っているのは、その、構造化プログラミングができたからといって、それが高品質なソフトウェアとては言えない、ということ。&lt;/p&gt;
+&lt;p&gt;そりゃそうですね。よくある、&lt;/p&gt;
+&lt;p&gt;必要条件だが、十分条件ではない&lt;/p&gt;
+&lt;p&gt;という事項の一つ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ソフトウェア開発201の鉄則 原理109</title>
+        <link>https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%86109/</link>
+        <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%86109/</guid>
         <description>&lt;h2 id=&#34;要旨&#34;&gt;要旨&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;デバッグやリグレッションテスト、確認のための単体テストといったもの以外の、本格的なテストをソフトウェア開発者は自分で行ってはならない&lt;/li&gt;
