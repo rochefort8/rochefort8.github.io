@@ -1,0 +1,1 @@
+ount=1;while [ 1 ] ; do n=$(printf %03d $count); ls -d content/post/201_principles_of_swdev-$n; if [ $? -ne 0 ];then echo $n >> missing.txt;fi;let count=$count+1;if [ $count -gt 201 ] ; then break; fi;done; 
