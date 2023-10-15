@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='テスティング:自分のソフトウェアを自分でテストするな'>
-<title>ソフトウェア開発201の鉄則 原理109</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='設計:保守が容易なように設計せよ'>
+<title>ソフトウェア開発201の鉄則 原理75</title>
 
-<link rel='canonical' href='https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%86109/'>
+<link rel='canonical' href='https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%8675/'>
 
-<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='ソフトウェア開発201の鉄則 原理109'>
-<meta property='og:description' content='テスティング:自分のソフトウェアを自分でテストするな'>
-<meta property='og:url' content='https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%86109/'>
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='ソフトウェア開発201の鉄則 原理75'>
+<meta property='og:description' content='設計:保守が容易なように設計せよ'>
+<meta property='og:url' content='https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%8675/'>
 <meta property='og:site_name' content='おぎくんチャンネル'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='ソフトウェア開発 201の鉄則' /><meta property='article:published_time' content='2020-05-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-05-24T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="ソフトウェア開発201の鉄則 原理109">
-<meta name="twitter:description" content="テスティング:自分のソフトウェアを自分でテストするな">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='ソフトウェア開発 201の鉄則' /><meta property='article:published_time' content='2020-05-23T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-05-23T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="ソフトウェア開発201の鉄則 原理75">
+<meta name="twitter:description" content="設計:保守が容易なように設計せよ">
     </head>
     <body class="
     article-page
@@ -293,12 +293,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%86109/">ソフトウェア開発201の鉄則 原理109</a>
+            <a href="/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%8675/">ソフトウェア開発201の鉄則 原理75</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            テスティング:自分のソフトウェアを自分でテストするな
+            設計:保守が容易なように設計せよ
         </h3>
         
     </div>
@@ -319,7 +319,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">May 24, 2020</time>
+                <time class="article-time--published">May 23, 2020</time>
             </div>
         
 
@@ -351,26 +351,22 @@
     
     <h2 id="要旨">要旨</h2>
 <ul>
-<li>デバッグやリグレッションテスト、確認のための単体テストといったもの以外の、本格的なテストをソフトウェア開発者は自分で行ってはならない</li>
-<li>テストというのは、バグが見つかって欲しくないと願う開発者に対し、バグを見つける、という行為なので、自分で行ったら正しくできるはずもないからだ</li>
-<li>そして、テスト担当者は、発見したバグを皆の前にさらして、開発者の面子を潰すようなことをしてはならない</li>
-<li>テスティングというのは、バグがでないことを期待する開発者に対し、精神的に追い打ちをかけるような仕事であることを開発者もテスターも認識しよう</li>
+<li>ソフトウェアで最もコストがかかる工程は、「保守」である</li>
+<li>なので、保守が容易となるように設計をせよ</li>
+<li>その方法に、一般的なものはない</li>
+<li>例えば、基本構造の選択時に、アルゴリズムやコードの選択よりも保守性を重視する、といったことが挙げられる</li>
 </ul>
 <h2 id="解説">解説</h2>
-<p>こう書いてあると、そっか、自分じゃやっちゃいけないのか、と思うだろう。</p>
-<p>自分でやるべきテストも、ある。それは、自分が設計・実装した機能が基本たたしく動作するかを確認するための単体テスト、それと、バグを修正した時、本当にちゃんと修正されているか、別のバグを発生させていないか、を確認するリグレッションテスト。</p>
-<p>これは、ソフトウェア開発者が「自分が正しい仕事ができたのか」を確認するためのものなのだから、それは、自分でやろう。</p>
-<p>それ以降の本格的なテスティング、ストレステストとか統合テストとか、ロングランとか。</p>
-<p>テスティングというのは、バグがないことを示すためにやるのでは、「ない」。</p>
-<p>全く逆で、「バグを見つけるために」やるものである。</p>
-<p>一方で、ソフトウェア開発者は、決して、自分が開発したものにバグがあることを望んだりは、しないだろう。</p>
-<p>そのような、自分が作ったものに対して、出てくることを望まないバグを見つける。それがテスティング。</p>
-<p>自分でできるわけが、ない。</p>
-<p>どうしても、自分でやると、甘〜〜くなるだろう。本格的にテストしているようで、どうしても特定の優しい状況を作り出して実行していることが往々にある。</p>
-<p>十分確認した、と自信満々で持ち込んで、テスターに一撃でバグを見つけられた、という経験は、誰しもお持ちだろう。</p>
-<p>「バグがない」というのは、開発者にとって、成果を出した証。</p>
-<p>「バグを見つけた」というのは、テスターにとって、成果を出した証。</p>
-<p>お互いの仕事を尊重して、仲良くやりましょう。</p>
+<p>ソフトウェア「以外の」製品、要するにハードウェアは、設計後最も費用がかかるのは、「生産」。なので、ハードウェア設計の際に一番考慮しなくてはならないのは、生産性。</p>
+<p>ソフトウェアの場合、生産にはほとんど費用がかからない場合が多い。その代わり、保守、運用に費用がかかる。なので、ソフトウェア設計の際に一番考慮しなくてはならないのは、保守・運用。</p>
+<p>生存期間が短いプロトタイプはともかく、製品に組み込まれるソフトウェア、サービスを支えるソフトウェアは、出荷・リリースしてからが本番が始まる。</p>
+<p>売れる、流行るものほど、ここから先の保守・運用が長い。一つのプロジェクトでトータルでかかった費用のうち、９割以上が保守・運用というデータもある。</p>
+<p>設計・実装のフェーズで保守・運用のことを最大限に考慮しなくてはならないのは、当然のことなのだ。</p>
+<p>「保守・運用のための設計」は、一意ではない。保守を容易にするには、総合て的なアプローチが必要だ。</p>
+<p>最適な基本構造の選択、アルゴリズム、データ構造の選択。</p>
+<p>「コーディングの原理」にも上がっている鉄則「読みやすい・わかりやすいコード作成」。</p>
+<p>ドキュメントをきちんと残すこと。</p>
+<p>こういった行動の集合体が、保守性を容易にするアプローチだろう。</p>
 
 </section>
 
@@ -439,12 +435,12 @@
             
                 
 <article class="">
-    <a href="/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%8675/">
+    <a href="/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%86109/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">ソフトウェア開発201の鉄則 原理75</h2>
+            <h2 class="article-title">ソフトウェア開発201の鉄則 原理109</h2>
         </div>
     </a>
 </article>

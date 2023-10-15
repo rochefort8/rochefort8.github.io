@@ -49,12 +49,11 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 「ソフトウェア技術で世界平和に貢献」が生きがいのエンジニア。今はSDGs関連。組み込み系、プロジェクト管理、CI、スマホアプリ、ウェブシステムと多岐にわたる開発を経験。個人開発で同窓会や知育向けスマホアプリをリリース。ラテンジャズのビッグバンド所属。
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
-
+            src: img/profile.jpg
     article:
         math: false
         toc: true
@@ -191,13 +190,13 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/rochefort8
           params:
               icon: brand-github
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com
+          url: https://twitter.com/rochefort_68
           params:
               icon: brand-twitter
 
