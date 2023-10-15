@@ -7,7 +7,52 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
         <copyright>Yuji Ogihara</copyright>
-        <lastBuildDate>Sun, 15 Oct 2023 07:34:50 +0900</lastBuildDate><atom:link href="https://rochefort8.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 15 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rochefort8.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ソフトウェア開発201の鉄則 原理28</title>
+        <link>https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%8628/</link>
+        <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://rochefort8.github.io/p/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA201%E3%81%AE%E9%89%84%E5%89%87-%E5%8E%9F%E7%90%8628/</guid>
+        <description>&lt;h2 id=&#34;要約&#34;&gt;要約&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;「形式的手法」は、数理論理学に基づく科学的な裏付けをもとにソフトウェア開発を行う手法である&lt;/li&gt;
+&lt;li&gt;「形式的手法」は難解なものだが、高品質を達成するには必要なものである&lt;/li&gt;
+&lt;li&gt;仕様書を最初は「自然言語」で書き、その後形式的手法を用いて書いてみることにより、仕様に潜む問題の発見に役立つかも知れない、といった使い方が効率的である&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;解説&#34;&gt;解説&lt;/h2&gt;
+&lt;p&gt;「形式的手法って何？」という人がほとんどだろう。定義は以下のようなものらしい。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;形式手法は、システム、特に、ソフトウェアの開発法であって、数理論理学に基づく科学的な裏付けを持つ。明確で厳密な意味を持つ言語を用いて設計対象を表現することにより、設計記述の正しさを系統的に示すことが可能になる。したがって、開発したシステム、あるいは、ソフトウェアが高い信頼性を持つことを保証することができる。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;難しいことを言うなぁ。おそらく「学術的手法」「論理的手法」といった方がピンとくるかも知れない。
+ソフトウェアの開発の一つ一つの工程において、曖昧さを排除して間違いが起きる可能性が限りなく少ない言語や環境を使って、論理的に正しく開発進めることによって、結果出来上がる成果物の品質は必然と高くなる、と考えていいかも知れない。&lt;/p&gt;
+&lt;p&gt;これは、「論理的手法」vs「実践的手法」に結果帰着する話で、研究者 vs 現場　といった図式にも近いかも知れない。&lt;/p&gt;
+&lt;p&gt;あんまりこの手法のことを考えたり経験があったりしたわけではないので、直感的な個人の感想になる。&lt;/p&gt;
+&lt;p&gt;今の時代のソフトウェア開発は、「形式的手法」「実践的手法」に重きを置いているんじゃなかろうか。
+それは、アジャイル開発の定着、CI/CDといったツールの発達で、「間違っても速やかに発見できて修正しやすい環境が整っている」からであり、それなら、考えて論理的にアプローチするよりも、開発-&amp;gt;修正を何度も繰り返した方が結果、高い品質を得られる、と言う考えで動いているように思う。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://qiita.com/autotaker1984/items/52cd65486a3186af080b&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;形式手法はなぜ流行っていないのか&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://swet.dena.com/entry/2020/04/08/140500&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ゼロから学んだ形式手法&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://formal.mri.co.jp/db/fmcategory/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;形式手法の実践ポータル&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この辺りが参考情報。  多くの実践例があるが、どれも「ちょっとした失敗でさえ許されない」重厚長大なシステムばっかりのようだ。アジャイルではなくウォーターフォール型の開発で進めていそうな、このような分野なら形式的手法は役立つかもしれない。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>ブログはじめてみました</title>
         <link>https://rochefort8.github.io/p/%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F/</link>
         <pubDate>Sun, 15 Oct 2023 07:12:51 +0900</pubDate>
